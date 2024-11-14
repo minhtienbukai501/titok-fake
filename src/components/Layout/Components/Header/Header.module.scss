@@ -1,0 +1,44 @@
+.wrapper {
+    height: var(--default-header-height);
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    width: 100%;
+}
+
+.inner {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    // justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-titok {
+}
+
+.search {
+    width: 500px;
+    height: 46px;
+    background: rgba(22, 24, 35, 0.06);
+    border-radius: 92px;
+    padding: 0 16px;
+
+    input {
+        height: 100%;
+        font-size: 16px;
+        color: var(--black-font-color);
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}
+
+.loading {
+}
+
+.close {
+}
+
+.search-btn {
+}
