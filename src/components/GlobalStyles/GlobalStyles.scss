@@ -4,8 +4,13 @@
 :root {
     --primary-color: #fe2c55;
     --default-header-height: 60px;
-
+    --text-color: #333;
     --black-font-color: #000;
+    --white-color: #fff;
+}
+
+ul {
+    list-style-type: none;
 }
 
 * {
@@ -22,4 +27,16 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }

@@ -1,0 +1,15 @@
+.wrapper {
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    padding: 9px 8px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+    &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(254, 44, 85);
+    }
+}
